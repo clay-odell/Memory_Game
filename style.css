@@ -1,0 +1,38 @@
+#game div {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 15%;
+  height: 200px;
+  margin: 25px;
+  display: inline-block;
+  
+  
+   
+}
+#scoreboard 
+{
+  font-family: 'Play', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  
+}
+#reset-button 
+{
+  font-family: 'Play', sans-serif;
+  margin: auto;
+  display: none; /*button is hidden until the player completes the game */
+}
+h1 
+{
+  font-family: 'Play', sans-serif;
+  font-size: 5rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+#game {
+  visibility: hidden;
+}
+#start-button
+{
+  font-family: 'Play', sans-serif;
+}
